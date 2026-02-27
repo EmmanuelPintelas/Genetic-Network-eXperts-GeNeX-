@@ -1,10 +1,12 @@
 
 # Genetic Network eXperts (GeNeX)
 
+📄 **Paper (TNNLS, accepted):** *GeNeX: Genetic Network eXperts framework for addressing Validation Overfitting*
+
 **GeNeX** is a machine learning framework for **robust classification under distribution shift** (when deployment data differs from training data).  
 It **evolves diverse neural networks** and **fuses them into expert prototypes** that can be ensembled for improved robustness and reduced validation overfitting.
 
-📄 **Paper (TNNLS, accepted):** *GeNeX: Genetic Network eXperts framework for addressing Validation Overfitting*
+
 
 
 <img width="8944" height="3863" alt="genex_framework" src="https://github.com/user-attachments/assets/bc4e9c55-d469-49aa-8b42-2141e117a781" />
@@ -87,4 +89,4 @@ in new unseen data.
 
 
 
-In https://github.com/AnonymisedRevision/Shifted-Dataset-Creator we provide a tool for creating shifted-variants of a given dataset for simulating realistic/challenging distributional shifted environments for benchmarking ML models' robustness ability in any given task.
+In https://github.com/EmmanuelPintelas/-Shifted-Dataset-Creator we provide a tool for creating shifted-variants of a given dataset for simulating realistic/challenging distributional shifted environments for benchmarking ML models' robustness ability in any given task.
