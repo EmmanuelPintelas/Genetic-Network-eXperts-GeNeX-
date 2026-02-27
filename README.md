@@ -3,6 +3,8 @@
 
 **GeNeX** is a new ML Framework for Tasks such as Classification, specialized in distributional-shifted environments (when training distribution is diferent from those of deploying). In short, it fuses genetically evolved networks into robust prototypes for ensembling predictions.
 
+**Paper** GeNeX: Genetic Network eXperts framework foraddressing Validation Overfitting
+
 
 <img width="8944" height="3863" alt="genex_framework" src="https://github.com/user-attachments/assets/bc4e9c55-d469-49aa-8b42-2141e117a781" />
 
