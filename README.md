@@ -8,8 +8,11 @@ It **evolves diverse neural networks** and **fuses them into expert prototypes**
 
 
 
+<img width="8945" height="3862" alt="genex" src="https://github.com/user-attachments/assets/9bf7198f-1d88-42fb-8896-54348373fbdf" />
 
-<img width="8944" height="3863" alt="genex_framework" src="https://github.com/user-attachments/assets/bc4e9c55-d469-49aa-8b42-2141e117a781" />
+<img width="12480" height="4065" alt="plot_Inner_View_Study" src="https://github.com/user-attachments/assets/68a7bd96-ebfd-4904-937b-83d2f7f76cba" />
+
+
 
 
 
