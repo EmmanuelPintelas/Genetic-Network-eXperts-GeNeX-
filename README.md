@@ -17,7 +17,19 @@ GenE generates a diverse pool M without validation monitoring via short supervis
 
 <img width="12480" height="4065" alt="plot_Inner_View_Study" src="https://github.com/user-attachments/assets/68a7bd96-ebfd-4904-937b-83d2f7f76cba" />
 
-Visualization of Train–Val Overfitting (TO) and Val–Test Overfitting (VO) gaps for two parent networks A and B and their genetically evolved child models. The study is conducted on the most challenging VO-pruned dataset, GS-DeepFake, which exhibits the highest distributional shift (JSD = 0.545). We observe that despite minimal TO and high validation performance (epochs 12--18 for A), severe VO gaps can still occur, leading to unreliable selection. After genetic crossover (vertical line), child models demonstrate improved generalization and reduced overfitting.
+Visualization of Train–Val Overfitting (TO) and Val–Test Overfitting (VO) gaps for two parent networks A and B and their genetically evolved child models. We investigated how
+two overfitted models, A and B, evolve into
+more generalizable child models through genetic operations.
+To simulate the effect of overfitting, we deliberately trained A and B for extended epochs, exposing them
+to both TO and VO divergence.
+Then, apply weight-level crossover and mutation to generate
+child networks. The genetic crossover process acts as a weight-space regularizer,
+reinitializing over-optimized trajectories and promoting the
+exploration of new parameter regions with improved generalization.
+
+
+
+
 
 
 
