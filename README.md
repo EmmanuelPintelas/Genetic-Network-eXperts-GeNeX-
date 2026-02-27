@@ -2,7 +2,7 @@
 # Genetic Network eXperts (GeNeX)
 
 **GeNeX** is a machine learning framework for **robust classification under distribution shift** (when deployment data differs from training data).  
-It **genetically evolves diverse neural networks** and **fuses them into expert prototypes** that can be ensembled for improved robustness and reduced validation overfitting.
+It **evolves diverse neural networks** and **fuses them into expert prototypes** that can be ensembled for improved robustness and reduced validation overfitting.
 
 📄 **Paper (TNNLS, accepted):** *GeNeX: Genetic Network eXperts framework for addressing Validation Overfitting*
 
