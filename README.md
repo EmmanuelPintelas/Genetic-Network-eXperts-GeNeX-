@@ -25,7 +25,7 @@ to both TO and VO divergence.
 Then, apply weight-level crossover and mutation to generate
 child networks. The genetic crossover process acts as a weight-space regularizer,
 reinitializing over-optimized trajectories and promoting the
-exploration of new parameter regions with improved generalization.
+exploration of new parameter regions, reducing overfitting and improving generalization.
 
 
 
