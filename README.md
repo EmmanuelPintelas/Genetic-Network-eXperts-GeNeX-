@@ -8,9 +8,10 @@ It **evolves diverse neural networks** and **fuses them into expert prototypes**
 
 
 
-<img width="8945" height="3862" alt="genex" src="https://github.com/user-attachments/assets/9bf7198f-1d88-42fb-8896-54348373fbdf" />
+<img width="8945" height="3862" alt="Εικόνα3" src="https://github.com/user-attachments/assets/1f697345-84d3-4276-8a0d-1b9134a6f739" />
 
-GeNeX overview. GenE generates a diverse pool M without validation monitoring via short supervised training and genetic crossover/mutation, encouraging broad weight-space exploration and limiting early validation dependence. ProtoNeX clusters models in behavior (prediction) space, elects complementary experts via multi-criteria selection, and fuses them into K compact prototypes. Instead of clustering data and training separate models per cluster, ProtoNeX clusters the models themselves and uses prototype fusion, promoting complementarity and behavioral diversity across the model space to enhance generalization.
+
+GenE generates a diverse pool M without validation monitoring via short supervised training and genetic crossover/mutation, encouraging broad weight-space exploration and limiting early validation dependence. ProtoNeX clusters models in behavior (prediction) space, elects complementary experts via multi-criteria selection, and fuses them into K compact prototypes. Instead of clustering data and training separate models per cluster, ProtoNeX clusters the models themselves and uses prototype fusion, promoting complementarity and behavioral diversity across the model space to enhance generalization.
 
 
 
