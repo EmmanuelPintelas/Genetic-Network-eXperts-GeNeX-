@@ -9,11 +9,13 @@ It **evolves diverse neural networks** and **fuses them into expert prototypes**
 
 
 <img width="8945" height="3862" alt="genex" src="https://github.com/user-attachments/assets/9bf7198f-1d88-42fb-8896-54348373fbdf" />
+
 GeNeX overview. GenE generates a diverse pool M without validation monitoring via short supervised training and genetic crossover/mutation, encouraging broad weight-space exploration and limiting early validation dependence. ProtoNeX clusters models in behavior (prediction) space, elects complementary experts via multi-criteria selection, and fuses them into K compact prototypes. Instead of clustering data and training separate models per cluster, ProtoNeX clusters the models themselves and uses prototype fusion, promoting complementarity and behavioral diversity across the model space to enhance generalization.
 
 
 
 <img width="12480" height="4065" alt="plot_Inner_View_Study" src="https://github.com/user-attachments/assets/68a7bd96-ebfd-4904-937b-83d2f7f76cba" />
+
 Visualization of Train–Val Overfitting (TO) and Val–Test Overfitting (VO) gaps for two parent networks A and B and their genetically evolved child models. The study is conducted on the most challenging VO-pruned dataset, GS-DeepFake, which exhibits the highest distributional shift (JSD = 0.545). We observe that despite minimal TO and high validation performance (epochs 12--18 for A), severe VO gaps can still occur, leading to unreliable selection. After genetic crossover (vertical line), child models demonstrate improved generalization and reduced overfitting.
 
 
